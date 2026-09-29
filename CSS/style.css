@@ -1,0 +1,336 @@
+body {
+    padding: 0;
+    margin: 0;
+    border-radius: 0px;
+}
+
+/* Entete_barre de navigation*/
+.barre_de_navigation {
+    width: 100%;
+    height: 80px;
+    background-color: #003B5C;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    height: 80px;
+    width: 100%;
+}
+
+li {
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 15px;
+    padding: 10px;
+    padding-right: 40px;
+    list-style-type: none;
+}
+
+li:hover {
+    color: crimson;
+    text-decoration: underline;
+}
+
+.onglet {
+    align-items: center;
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+
+.date_du_jour {
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    font-size: 20px;
+    padding-right: 20px;
+}
+
+.date_du_jour:hover {
+    color: #fec17b;
+}
+
+/*Acceuil*/
+
+.fond_accueil {
+    background-image: url(../IMAGES/logo_Acceuil.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 790px;
+    border: 1px solid black;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 200px;
+}
+
+.Titre_accrocheur {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    color: white;
+}
+
+.sous_titre {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+    color: rgb(191, 17, 17);
+}
+
+.bouton_action {
+    background-image: url(../IMAGES/fond_button_demander_action.jfif);
+    color: black;
+    padding: 15px 28px;
+    border-radius: 5px;
+    margin-top: 40px;
+    font-size: 25px;
+}
+
+h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 50px;
+    color: white;
+}
+
+/* Services & Réalisations*/
+.nos_services {
+    background-color: #FFFFFF;
+    border: 1px solid #E5E7EB;
+    transition: 0.3s ease;
+    padding-top: 20px;
+    border-radius: 20px;
+}
+
+.nos_services:hover {
+    background-color: #0B1F3A;
+    color: #FFFFFF;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+}
+
+#nos_services_h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 34px;
+    font-weight: 700;
+    color: #0B1F3A;
+    text-align: center;
+    text-shadow: #0B1F3A;
+    text-decoration: underline;
+}
+
+nav {
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.gros_renov {
+    display: flex;
+    justify-content: space-around;
+}
+
+/* A propos de nous */
+.A_propos_de_nous {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 50px;
+    transition: 0.4s ease;
+}
+
+.A_propos_de_nous:hover {
+    background-color: #F3F6FA;
+}
+
+.description {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+}
+
+strong {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 27px;
+    font-weight: 800;
+    color: #0b2d6cea;
+}
+
+span {
+    font-family: 'poppins', sans-serif;
+    font-size: 20px;
+    color: #000000;
+}
+
+/* Contacts */
+
+.contact {
+    display: flex;
+    justify-content: space-between;
+    /* justify-content: space-around; */
+    margin: 100px;
+}
+
+#coordonnee_entreprise {
+    font-size: 18px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 500;
+}
+
+#coordonnee_entreprise1 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 22px;
+    font-weight: 600;
+    margin-left: 30px;
+}
+
+#coordonnee_entreprise:hover{
+    color: blue;
+    transition: 1ms ease-in-out;
+}
+
+#coordonnee_entreprise1:hover{
+    color: red;
+    transition: 1ms ease-in-out;
+}
+
+.ruban {
+    border-radius: 5px;
+    width: 5px;
+    height: 250px;
+    background-color: #2313138b;
+    margin-right: 10px;
+}
+
+.contact_entreprise {
+    display: flex;
+}
+
+.nom_tel {
+    display: flex;
+    justify-content: space-around;
+}
+
+input {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    font-weight: 200;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 7px;
+    transition: 0.5s ease;
+}
+
+input:focus {
+    outline: none;
+    border-color: #0B1F3A;
+    box-shadow: 0 0 10px rgba(11, 31, 58, 1);
+}
+
+option {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    font-weight: 200;
+    text-align: center;
+}
+
+select {
+    padding-right: 100px;
+    padding-top: 10px;
+    padding-left: 15px;
+    padding-bottom: 10px;
+    border-radius: 15px;
+    margin: 10px;
+    font-size: 20px;
+    transition: 0.5s ease;
+}
+
+select:focus {
+    outline: none;
+    border-color: #0B1F3A;
+    box-shadow: 0 0 10px rgba(11, 31, 58, 1);
+}
+
+#messages {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    font-weight: 200;
+    padding: 30px;
+    width: 450px;
+}
+
+/* le footer */
+
+.background_footer {
+    background-color: #0b1f33;
+    height: 400px;
+    color: #FFFFFF;
+    padding: 0;
+}
+
+#batirco_footer {
+    margin-bottom: 0px;
+    text-align: center;
+    margin-top: 0px;
+}
+
+#sous_titre {
+    color: white;
+    text-align: center;
+}
+
+.margin_reseau {
+    margin: 30px;
+}
+
+.footer_bloc2 {
+    border-top: 1px solid rgba(221, 208, 208, 0.448);
+    margin-top: 10px;
+}
+
+.footer_bloc1_space {
+    justify-content: space-around;
+}
+
+h2 {
+    text-align: center;
+}
+
+#footer_contact {
+    color: rgba(255, 255, 255, 0.638);
+    padding-left: 50px;
+}
+
+#footer_contact_bas {
+    color: rgba(255, 255, 255, 0.744);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#footer_contact_bas:hover{
+    color: blue;
+    transition: 1ms ease-in-out;
+}
+.footer_contact {
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer_bloc3 {
+    border-top: 1px solid rgba(221, 208, 208, 0.448);
+    margin-top: 5px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+a {
+    list-style-type: none;
+    text-decoration: none;
+}
+
+#copyright {
+    color: white;
+}
+
+h2 {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.margin_left_onglet_batirco{
+    margin-left: 200px;
+}
