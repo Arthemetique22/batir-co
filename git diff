@@ -1,0 +1,22 @@
+[1mdiff --git a/index.html b/index.html[m
+[1mindex ad3f5dd..9edfe36 100644[m
+[1m--- a/index.html[m
+[1m+++ b/index.html[m
+[36m@@ -12,7 +12,7 @@[m
+     <!-- le header -->[m
+     <div class="barre_de_navigation" id="accueil">[m
+         <div class="">[m
+[31m-            <img class="logo" src="IMAGES/logo_entreprise.avif" alt="logo">[m
+[32m+[m[32m            <img class="logo" src="IMAGES/logo_entreprise.avif" alt="logo">[m
+         </div>[m
+ [m
+         <div class="menu_navigation">[m
+[36m@@ -71,7 +71,7 @@[m
+         <div class="A_propos_de_nous">[m
+             <!-- pour l'image -->[m
+             <div>[m
+[31m-                <img src="IMAGES/equipe-experience.jpg" alt="" height="600px" width="600px">[m
+[32m+[m[32m                <img src="IMAGES/equipe-experience.jpg" alt="" height="600px" width="600px">[m
+             </div>[m
+             <!-- pour la description -->[m
+             <div class="description">[m
